@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="source/icon.jpg">
+    <title>芳空警报</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="home" class="main-container part">
+        <div class="topspace"></div>
+        <!-- 顶部角色栏目 -->
+        <div class="topbar">
+            <ul>
+                <li><a href="#Nene"><img src="source/宁宁.jpg" class="bar-img" data-hover="source/宁宁hover.jpg"></a></li>
+                <li><a href="#Murasame"><img src="source/丛雨.jpg" class="bar-img" data-hover="source/丛雨hover.jpg"></a></li>
+                <li><a href="#Hiyori"><img src="source/妃爱.jpg" class="bar-img" data-hover="source/妃爱hover.jpg"></a></li>
+                <li><a href="#Meguru"><img src="source/美咕噜.jpg" class="bar-img" data-hover="source/美咕噜hover.jpg"></a></li>
+                <li><a href="#Natsume"><img src="source/夏目.jpg" class="bar-img" data-hover="source/夏目hover.jpg"></a></li>
+                <li><a href="#Amane"><img src="source/天音.jpg" class="bar-img" data-hover="source/天音hover.jpg"></a></li>
+                <li><a href="#Yae"><img src="source/弥荣.jpg" class="bar-img" data-hover="source/弥荣hover.jpg"></a></li>
+            </ul>
+        </div>
+        <!-- 游戏介绍部分 -->
+        <div id="intro" class="intro-content">
+            <h2 class="intro-title">角色快选</h2>
+            <p class="intro-text">
+                进入游戏前，点击顶栏角色头像可以听到该角色的声音。请记住每个角色对应的声音。
+                <br>
+                游戏开始时，将会播放某个角色声音，随后在宫格中选出所有对应角色的角色头像，点错将会判负。
+                <br>
+                看看谁最快!
+                <br>
+                简单模式：前三个角色，九宫格。
+                <br>
+                进阶模式：全七个角色，四十九宫格。
+            </p>
+            <div class="intro-btn">
+                <a href="#game"><button difficult="easy" class="intro-btn-easy">简单模式</button></a>
+                <a href="#game-adv"><button difficult="adv" class="intro-btn-adv">进阶模式</button></a>
+            </div>
+            <p class="acknowledgements">
+                <br>
+                感谢Yuzusoft、Madosoft和SagaPlanets提供的音频以及素材，您可以在<a href="https://moegirl.icu/Mainpage">萌娘百科</a>上找到相关内容。
+                <br>
+                感谢<a href="https://www.runoob.com/">菜鸟教程</a>提供的HTML、CSS、JavaScript教程以及助教团队的精简PPT。
+                <br>
+                感谢Chatgpt对我的无私指导，在我走投无路时提供帮助。
+                <br>
+                感谢Deepseek在Chatgpt走投无路时对我的鼓励。
+                <br>
+                感谢Fitten Code对我代码的纠正以及扩充。
+                <br>
+                感谢所有参与测试的玩家，感谢您的支持！
+                <br>
+                感谢国科大，感谢玉泉路！
+                <br>
+                Ciallo～(∠・ω< )⌒☆
+
+            </p>
+        </div>
+        <div class="bottomspace"></div>
+    </div>
+    <!-- 简单模式 -->
+    <div id="easy" class="part">
+        <div class="timer-container">
+            <span class="timer">00:00</span>
+        </div>
+        <h2>简单模式</h2>
+        <div class="grid-container"> </div>
+    </div>
+    <!-- 进阶模式 -->
+    <div id="adv" class="part">
+        <div class="timer-container">
+            <span class="timer">00:00</span>
+        </div>
+        <h2>进阶模式</h2>
+        <div class="grid-container"></div>
+    </div>
+</body>
+
+</html>
