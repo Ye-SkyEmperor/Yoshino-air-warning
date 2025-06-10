@@ -18,6 +18,22 @@ body::before {
     z-index: -1;
 }
 
+
+/* 脚注设置 */
+footer {
+    background-color: #fef3c7;
+    /* 浅黄色背景 */
+    color: #7c2d12;
+    /* 深橘红字体 */
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #f59e0b;
+    /* 顶部边框 */
+    font-weight: bold;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* 排版设置 */
 .main-container {
     display: flex;
