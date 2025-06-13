@@ -1,28 +1,33 @@
 <html>
-
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"> <!-- 视口设置 -->  
+    <meta name="renderer" content="webkit"> <!-- 设置渲染引擎为webkit兼容webkit浏览器 -->  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 设置IE浏览器以最新的渲染模式显示页面 -->  
+    <meta http-equiv="Cache-Control" content="no-siteapp"> <!-- 禁止页面转应用 -->  
+    <meta name="description" content="柚子厨">  <!--搜索引擎关键词-->
     <link rel="shortcut icon" href="source/icon.jpg">
     <title>芳空警报</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div id="home" class="main-container part">
-        <div class="topspace"></div>
+        <!-- <div class="topspace"></div> -->
         <!-- 顶部角色栏目 -->
         <div class="topbar">
             <ul>
-                <li><a href="#Nene"><img src="source/宁宁.jpg" class="bar-img" data-hover="source/宁宁hover.jpg"></a></li>
-                <li><a href="#Murasame"><img src="source/丛雨.jpg" class="bar-img" data-hover="source/丛雨hover.jpg"></a></li>
-                <li><a href="#Hiyori"><img src="source/妃爱.jpg" class="bar-img" data-hover="source/妃爱hover.jpg"></a></li>
-                <li><a href="#Meguru"><img src="source/美咕噜.jpg" class="bar-img" data-hover="source/美咕噜hover.jpg"></a></li>
-                <li><a href="#Natsume"><img src="source/夏目.jpg" class="bar-img" data-hover="source/夏目hover.jpg"></a></li>
-                <li><a href="#Amane"><img src="source/天音.jpg" class="bar-img" data-hover="source/天音hover.jpg"></a></li>
-                <li><a href="#Yae"><img src="source/弥荣.jpg" class="bar-img" data-hover="source/弥荣hover.jpg"></a></li>
+                <li><a href="#Nene" class="宁宁"><img src="source/宁宁.jpg" class="bar-img" data-hover="source/宁宁hover.jpg"></a></li>
+                <li><a href="#Murasame" class="丛雨"><img src="source/丛雨.jpg" class="bar-img " data-hover="source/丛雨hover.jpg"></a></li>
+                <li><a href="#Hiyori" class="妃爱"><img src="source/妃爱.jpg" class="bar-img " data-hover="source/妃爱hover.jpg"></a></li>
+                <li><a href="#Meguru" class="美咕噜"><img src="source/美咕噜.jpg" class="bar-img " data-hover="source/美咕噜hover.jpg"></a></li>
+                <li><a href="#Natsume" class="夏目"><img src="source/夏目.jpg" class="bar-img " data-hover="source/夏目hover.jpg"></a></li>
+                <li><a href="#Amane" class="天音"><img src="source/天音.jpg" class="bar-img " data-hover="source/天音hover.jpg"></a></li>
+                <li><a href="#Yae" class="弥荣"><img src="source/弥荣.jpg" class="bar-img " data-hover="source/弥荣hover.jpg"></a></li>
             </ul>
         </div>
+        <div class="topbar进度条"><div class="topbar进度点" data-进度点></div></div>
+        <script src="topbar进度条控制.js"></script>
         <!-- 游戏介绍部分 -->
         <div id="intro" class="intro-content">
             <h2 class="intro-title">角色快选</h2>
@@ -59,7 +64,7 @@
 
             </p>
         </div>
-        <div class="bottomspace"></div>
+        <!-- <div class="bottomspace"></div> -->
     </div>
     <!-- 简单模式 -->
     <div id="easy" class="part">
